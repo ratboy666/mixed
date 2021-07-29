@@ -1,0 +1,10 @@
+# build
+#
+# Build mixed (HI-TECH C/FORTRAN-80/MACRO-80) program.
+# 
+m80 =names/l
+f80 =f/l
+zxc -c c.c
+objtomac c.obj >c.mac
+m80 =c/i/l
+l80 zcrtcpm,c,names,f,test/n/y/e

@@ -1,0 +1,4 @@
+rm -f c.mac c.obj c.prn c.rel
+rm -f f.prn r.rel
+rm -f names.prn names.rel
+rm -f test.com test.sym
